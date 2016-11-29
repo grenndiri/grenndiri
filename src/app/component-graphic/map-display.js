@@ -3,10 +3,10 @@ import './map-display.scss';
 
 class MapDisplayController {
   $onInit() {
-    this.loadImg()
+    this.drawMap()
   }
 
-  loadImg() {
+  drawMap() {
 
     // Two Dimensional Array storing our isometric map layout. Each number represents a tile.
     var map = [
