@@ -1,0 +1,7 @@
+.idea/
+.tmp/
+coverage/
+dist/
+node_modules/
+/assets
+.sass-cache/
